@@ -1,0 +1,54 @@
+:root {
+    --colorTextos: #2198ad;
+}
+
+
+body {
+    /* fallback for old browsers */
+    background: #70e1f5;
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #ffd194, #70e1f5);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #ffd194, #70e1f5);
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 100%;
+
+}
+
+body {
+    margin: 0 0;
+    font-family: "Sofia", sans-serif;
+}
+
+nav>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav>ul>li {
+    float: left;
+}
+
+nav>ul>li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav>ul>li a:hover {
+    background-color: #70e1f5;
+}
+
+.active {
+    background-color: #70e1f5;
+}
+
+.active-about {
+    background-color: #ffd194;
+}
