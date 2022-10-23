@@ -1,12 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Nutrición</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutrición</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap">
+    <link rel="stylesheet" href="./../assets/tips.css" />
 </head>
+
 <body>
-   <p>Nutrición</p>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./nutritionTips.html" class="active">Recetas</a></li>
+                <li><a href="./contact.html">Contacto</a></li>
+                <li style="float:right"><a class="active-about" href="#about">Nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1 class="page-title">Tips</h1>
+
+        <div class="support-grid"></div>
+
+        <div class="band"></div>
+    </div>
+    <script src="./../scripts/api/getAllRecipes.js"></script>
 </body>
+
 </html>
