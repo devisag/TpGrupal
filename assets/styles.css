@@ -151,3 +151,20 @@ textarea:focus~.barra::before{
    transition: 0.3s ease all ;
    left: 0%
 }
+
+button{
+   font-family: 'Source Sans Pro', sans-serif;
+   background: #70e1f5; 
+   /* Chrome 10-25, Safari 5.1-6 */ 
+   background: -webkit-linear-gradient(to right, #ffd194, #70e1f5);  
+   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   background: linear-gradient(to right, #ffd194, #70e1f5);  
+   border: none;
+   display: block;
+   width: 80%;
+   margin: 10px auto;
+   color: #fff;
+   height: 40px;
+   font-size: 18px;
+   cursor: pointer;
+}
